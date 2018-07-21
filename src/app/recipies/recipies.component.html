@@ -1,0 +1,15 @@
+<div class="row">
+  <div class="col-md-5 col-sm-6">
+    <app-recipies-list></app-recipies-list>
+  </div>
+  <div class="col-md-7 col-sm-6">
+    <app-recipies-detail *ngIf="currentRecepie; else infoText"></app-recipies-detail>
+
+    <ng-template #infoText>
+      {{currentRecepie}}
+      <p>
+        Please select a Recipie
+      </p>
+    </ng-template>
+  </div>
+</div>

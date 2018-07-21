@@ -1,0 +1,14 @@
+<div class="row">
+  <div class="col-xs-12">
+    <app-shopping-edit (addRecipie)="add($event)"></app-shopping-edit>
+    <hr>
+    <ul class="list-group">
+      <li *ngFor="let ingredient of ingredients" class="list-group-item">
+        {{ingredient.name}}
+        <span class="pull-right">
+          {{ingredient.price}}
+        </span>
+      </li>
+    </ul>
+  </div>
+</div>

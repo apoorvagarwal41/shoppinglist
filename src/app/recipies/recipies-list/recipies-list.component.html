@@ -1,0 +1,5 @@
+<button class="btn btn-success">Add New Recipie</button>
+<hr>
+<ul class="list-group">
+  <app-recipies-item *ngFor="let recipie of recipies" [recipieData]="recipie" (click)="setData(recipie)"></app-recipies-item>
+</ul>

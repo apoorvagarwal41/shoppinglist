@@ -25,3 +25,14 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+
+# Lifecycle Method
+
+1.  ngOnChanges
+2.  ngOnInit
+3.  ngDoCheck
+4.  ngAfterContentInit
+5.  ngAfterContentChecked
+6.  ngAfterViewInit
+7.  ngAfterViewChekced
+8.  ngOnDestroy
